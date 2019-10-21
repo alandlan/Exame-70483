@@ -17,8 +17,14 @@ namespace AplicativoConsole
             Dados.TipoConta.Id = 1;
             Dados.TipoConta.NomeConta = "Corrente";
 
-            Console.WriteLine(Dados.Cliente.Nome);
+            Console.WriteLine(Dados.Saldo);
             Console.ReadKey();
+
+            Dados.Sacar(400);
+
+            Console.WriteLine(Dados.Saldo);
+            Console.ReadKey();
+
         }
     }
 }
