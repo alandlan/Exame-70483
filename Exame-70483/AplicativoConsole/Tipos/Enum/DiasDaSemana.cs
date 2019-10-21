@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AplicativoConsole.Tipos.Enum
 {
-    public class DiasDaSemana
+    public enum DiasDaSemana
     {
         Seg = 0,
         Ter = 1,
