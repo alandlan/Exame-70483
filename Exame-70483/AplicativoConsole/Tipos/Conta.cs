@@ -27,14 +27,21 @@ namespace AplicativoConsole.Tipos
         public int IdCliente { get; set; }
         public Cliente Cliente { get; set; }
 
-        public void Sacar (decimal valor)
+        public void Sacar(decimal valor)
         {
             this.Saldo -= valor;
         }
 
-        public void Depositar (decimal valor)
+        public void Depositar(decimal valor)
         {
             this.Saldo -= valor;
+        }
+
+        public decimal ValorInvestido(decimal saldo, decimal valorInvestido = 5000)
+        {
+            this.Saldo = saldo + valorInvestido;
+
+            return Saldo;
         }
 
     }

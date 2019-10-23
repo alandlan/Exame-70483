@@ -45,10 +45,13 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tipos\BoxingUnboxing.cs" />
     <Compile Include="Tipos\Cliente.cs" />
+    <Compile Include="Tipos\Construtor.cs" />
     <Compile Include="Tipos\Conta.cs" />
     <Compile Include="Tipos\Enum\DiasDaSemana.cs" />
     <Compile Include="Tipos\Enum\Enum.cs" />
+    <Compile Include="Tipos\MetodoExtensao.cs" />
     <Compile Include="Tipos\TipoConta.cs" />
     <Compile Include="Tipos\TiposValor\ModificadoresDeAcesso.cs" />
     <Compile Include="Tipos\TiposValor\TiposValor.cs" />
