@@ -11,6 +11,7 @@ namespace AplicativoConsole
     {
         static void Main(string[] args)
         {
+            
             ///String Builder
             StringBuilder myStringBuilder = new StringBuilder("Exame-70843");
             myStringBuilder.Append(" Projeto preparatorio Exame-70843 Programming C#");
@@ -51,7 +52,7 @@ namespace AplicativoConsole
             //Fim do exemplo com método Opcional
 
             var construtor = new Construtor();
-
+            
         }
     }
 }

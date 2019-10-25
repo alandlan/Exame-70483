@@ -49,6 +49,7 @@
     <Compile Include="Tipos\Cliente.cs" />
     <Compile Include="Tipos\Construtor.cs" />
     <Compile Include="Tipos\Conta.cs" />
+    <Compile Include="Tipos\Conversores.cs" />
     <Compile Include="Tipos\Enum\DiasDaSemana.cs" />
     <Compile Include="Tipos\Enum\Enum.cs" />
     <Compile Include="Tipos\MetodoExtensao.cs" />
