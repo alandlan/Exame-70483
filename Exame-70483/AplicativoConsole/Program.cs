@@ -1,4 +1,5 @@
-﻿using AplicativoConsole.Tipos;
+﻿using AplicativoConsole.Fluxo;
+using AplicativoConsole.Tipos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -52,7 +53,19 @@ namespace AplicativoConsole
             //Fim do exemplo com método Opcional
 
             var construtor = new Construtor();
-            
+
+            //Esse exemplo de uma Task Parallel
+            TaskParallel.TaskParallell();
+            Console.ReadKey();
+
+            TaskParallel.ChamandoTask();
+            Console.ReadKey();
+
+            TaskParallel.TaskEmpilhada();
+
+            TaskParallel.Mainn();
+            Console.ReadKey();
+
         }
     }
 }
