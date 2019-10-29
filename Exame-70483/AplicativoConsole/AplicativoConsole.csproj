@@ -52,6 +52,7 @@
     <Compile Include="Tipos\Conversores.cs" />
     <Compile Include="Tipos\Enum\DiasDaSemana.cs" />
     <Compile Include="Tipos\Enum\Enum.cs" />
+    <Compile Include="Tipos\Lista\Lista.cs" />
     <Compile Include="Tipos\MetodoExtensao.cs" />
     <Compile Include="Tipos\TipoConta.cs" />
     <Compile Include="Tipos\TiposValor\ModificadoresDeAcesso.cs" />
