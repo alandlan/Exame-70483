@@ -1,4 +1,5 @@
 ﻿using AplicativoConsole.Fluxo;
+using AplicativoConsole.Fluxo.Multithread;
 using AplicativoConsole.Tipos;
 using System;
 using System.Collections.Generic;
@@ -75,6 +76,14 @@ namespace AplicativoConsole
 
             // Fim de exemplo de tasks
 
+            /// <summary>
+            /// Exemplos de Multithread
+            /// </summary>
+
+                Multithread.Principal();
+                Console.ReadKey();
+
+            // Fim de exemplo de Multithread
         }
     }
 }

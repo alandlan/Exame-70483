@@ -32,11 +32,11 @@ namespace AplicativoConsole.Fluxo
 
         public static async Task<int> LongRunningOperation() // assume we return an int from this long running operation 
         {
-            var lista = new string[2];
+            ///var lista = new string[2];
 
             try
             {
-                string a = lista[3];
+                ///string a = lista[2];
 
                 Console.WriteLine("LongRunningOperation() Startedd");
                 await Task.Delay(10000); // 2 second delay

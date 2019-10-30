@@ -43,10 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Fluxo\AsyncAwait.cs" />
-    <Compile Include="Fluxo\ChamandoTask.cs" />
-    <Compile Include="Fluxo\TaskEmpilhada.cs" />
-    <Compile Include="Fluxo\TaskParallel.cs" />
+    <Compile Include="Fluxo\Multithread\Multithread.cs" />
+    <Compile Include="Fluxo\Task\AsyncAwait.cs" />
+    <Compile Include="Fluxo\Task\ChamandoTask.cs" />
+    <Compile Include="Fluxo\Task\TaskEmpilhada.cs" />
+    <Compile Include="Fluxo\Task\TaskParallel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tipos\BoxingUnboxing.cs" />
