@@ -1,4 +1,5 @@
 ﻿using AplicativoConsole.Fluxo;
+using AplicativoConsole.Fluxo.Exceptionn;
 using AplicativoConsole.Fluxo.Multithread;
 using AplicativoConsole.Tipos;
 using System;
@@ -13,7 +14,7 @@ namespace AplicativoConsole
     {
         static void Main(string[] args)
         {
-            
+            /*
             ///String Builder
             StringBuilder myStringBuilder = new StringBuilder("Exame-70843");
             myStringBuilder.Append(" Projeto preparatorio Exame-70843 Programming C#");
@@ -81,6 +82,18 @@ namespace AplicativoConsole
             /// </summary>
 
                 Multithread.Principal();
+                Console.ReadKey();
+
+            // Fim de exemplo de Multithread
+            */
+            /// <summary>
+            /// Exemplos de Exception
+            /// </summary>
+
+                ExceptionClass.ExceptionArithmetic(2);
+                Console.ReadKey();
+
+                ExceptionClass.ExceptionNull();
                 Console.ReadKey();
 
             // Fim de exemplo de Multithread

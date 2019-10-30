@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fluxo\Exception\Exception.cs" />
     <Compile Include="Fluxo\Multithread\Multithread.cs" />
     <Compile Include="Fluxo\Task\AsyncAwait.cs" />
     <Compile Include="Fluxo\Task\ChamandoTask.cs" />
