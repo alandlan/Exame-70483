@@ -20,17 +20,17 @@ namespace AplicativoConsole
 
             ///Definindo dados do Cliente
             var Dados = new Conta();
-
-            Dados.TipoConta.Id = 1;
-            Dados.TipoConta.NomeConta = "Corrente";
-
+                       
+            ///Exibe o Saldo definido no Construtor
             Console.WriteLine("Saldo atual : {0} ", Dados.Saldo);
             Console.ReadKey();
 
+            ///Metodo para sacar
             Dados.Sacar(400);
             Console.WriteLine("Saldo após saque : {0}",Dados.Saldo);
             Console.ReadKey();
 
+            ///Metodo de extensão
             var Frase = "Metodos de Extensão?!";
             Console.WriteLine("Frase antes do Metodo Extensao: {0}", Frase);
             Console.ReadKey();
@@ -54,17 +54,26 @@ namespace AplicativoConsole
 
             var construtor = new Construtor();
 
-            //Esse exemplo de uma Task Parallel
-            TaskParallel.TaskParallell();
-            Console.ReadKey();
+            /// <summary>
+            /// Exemplos de Task
+            /// </summary>
+            
+                ///Chamada assincrona de Task
+                TaskParallel.TaskParallell();
+                Console.ReadKey();
 
-            TaskParallel.ChamandoTask();
-            Console.ReadKey();
+                ///Chamada de uma task por outra task
+                ChamandoTask.ChamandoTaskMetodo();
+                Console.ReadKey();
 
-            TaskParallel.TaskEmpilhada();
+                //Chamada de tasks 
+                TaskEmpilhada.TaskEmpilhadaMetodo();
 
-            TaskParallel.Mainn();
-            Console.ReadKey();
+                //Usando o async e await com Tasks
+                AsyncAwait.Principal();
+                Console.ReadKey();
+
+            // Fim de exemplo de tasks
 
         }
     }

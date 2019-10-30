@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fluxo\AsyncAwait.cs" />
+    <Compile Include="Fluxo\ChamandoTask.cs" />
+    <Compile Include="Fluxo\TaskEmpilhada.cs" />
     <Compile Include="Fluxo\TaskParallel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

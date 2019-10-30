@@ -8,6 +8,11 @@ namespace AplicativoConsole.Tipos
 {
     public class TipoConta
     {
+        public TipoConta(int id = 1, string nomeconta = "Corrente")
+        {
+            Id = id;
+            NomeConta = nomeconta;
+        }
         /// <summary>
         /// Id da Conta
         /// </summary>
