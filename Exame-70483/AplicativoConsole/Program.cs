@@ -1,5 +1,6 @@
 ﻿using AplicativoConsole.Fluxo;
 using AplicativoConsole.Fluxo.Exceptionn;
+using AplicativoConsole.Fluxo.Lambda;
 using AplicativoConsole.Fluxo.Multithread;
 using AplicativoConsole.Tipos;
 using System;
@@ -90,13 +91,15 @@ namespace AplicativoConsole
             /// Exemplos de Exception
             /// </summary>
 
-                ExceptionClass.ExceptionArithmetic(2);
-                Console.ReadKey();
+            //ExceptionClass.ExceptionArithmetic(2);
+            //Console.ReadKey();
 
-                ExceptionClass.ExceptionNull();
-                Console.ReadKey();
+            //ExceptionClass.ExceptionNull();
+            //Console.ReadKey();
 
             // Fim de exemplo de Multithread
+
+            Lambda.LambdaMethod();
         }
     }
 }
