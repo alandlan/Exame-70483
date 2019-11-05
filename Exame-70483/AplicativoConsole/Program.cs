@@ -1,4 +1,6 @@
 ﻿using AplicativoConsole.Fluxo;
+using AplicativoConsole.Fluxo.Anonimos;
+using AplicativoConsole.Fluxo.DelegateMethod;
 using AplicativoConsole.Fluxo.Exceptionn;
 using AplicativoConsole.Fluxo.Lambda;
 using AplicativoConsole.Fluxo.Multithread;
@@ -99,7 +101,38 @@ namespace AplicativoConsole
 
             // Fim de exemplo de Multithread
 
-            Lambda.LambdaMethod();
+            /// <summary>
+            /// Exemplos de Lamdba
+            /// </summary>
+            /// 
+            //Lambda.LambdaMethod();
+
+            // Fim de exemplo de Lambda
+
+            /// <summary>
+            /// Exemplos de Delegate
+            /// </summary>
+            /// 
+            //MethodDelegate methodDelegate = new MethodDelegate();
+            //methodDelegate.ChamarDelegate();
+            //Console.ReadKey();
+
+            //MethodDelegate methodDelegateSemParametro = new MethodDelegate();
+            //var a = methodDelegateSemParametro.ChamarDelegateSemparametro();
+            //Console.WriteLine(a);
+            //Console.ReadKey();
+
+            // Fim de exemplo de Delegate
+
+            /// <summary>
+            /// Exemplos de metodos anonimos
+            /// </summary>
+            /// 
+
+            Anonimos anonimos = new Anonimos();
+            anonimos.MethodoAnonimo();
+            Console.ReadKey();
+            // Fim de exemplo de Delegate
         }
     }
 }

@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fluxo\Anonimos\Anonimos.cs" />
+    <Compile Include="Fluxo\Delegate\DelegateMethod.cs" />
     <Compile Include="Fluxo\Exception\Exception.cs" />
     <Compile Include="Fluxo\Lambda\Lambda.cs" />
     <Compile Include="Fluxo\Multithread\Multithread.cs" />
