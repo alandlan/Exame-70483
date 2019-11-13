@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AcessoDados\HttpTransfer\HttpTransfer.cs" />
     <Compile Include="Fluxo\Anonimos\Anonimos.cs" />
     <Compile Include="Fluxo\Delegate\DelegateMethod.cs" />
     <Compile Include="Fluxo\Exception\Exception.cs" />
@@ -71,7 +72,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Acesso dados\" />
     <Folder Include="Tipos\Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

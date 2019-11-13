@@ -10,11 +10,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AplicativoConsole.AcessoDados.HttpTransfer;
 
 namespace AplicativoConsole
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             /*
@@ -129,10 +131,17 @@ namespace AplicativoConsole
             /// </summary>
             /// 
 
-            Anonimos anonimos = new Anonimos();
-            anonimos.MethodoAnonimo();
-            Console.ReadKey();
+            //Anonimos anonimos = new Anonimos();
+            //anonimos.MethodoAnonimo();
+            //Console.ReadKey();
             // Fim de exemplo de Delegate
+
+            // Inicio HttpTransfer
+
+            HttpTransfer.Http();
+            
+
+            // Fim HttpTransfer
         }
     }
 }
