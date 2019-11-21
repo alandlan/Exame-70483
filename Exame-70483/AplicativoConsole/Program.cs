@@ -1,4 +1,5 @@
-﻿using AplicativoConsole.Fluxo;
+﻿using AplicativoConsole.Acesso_dados;
+using AplicativoConsole.Fluxo;
 using AplicativoConsole.Fluxo.Anonimos;
 using AplicativoConsole.Fluxo.DelegateMethod;
 using AplicativoConsole.Fluxo.Exceptionn;
@@ -129,10 +130,16 @@ namespace AplicativoConsole
             /// </summary>
             /// 
 
-            Anonimos anonimos = new Anonimos();
-            anonimos.MethodoAnonimo();
-            Console.ReadKey();
+            //Anonimos anonimos = new Anonimos();
+            // anonimos.MethodoAnonimo();
+            //Console.ReadKey();
             // Fim de exemplo de Delegate
+
+            // Fluxo de entrada e saída E/S
+            var fluxoEntradaSaida = new FluxoEntradaSaida();
+
+            fluxoEntradaSaida.TrabalhandoComDiretorios();
+            
         }
     }
 }
