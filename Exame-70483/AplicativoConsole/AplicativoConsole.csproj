@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EntradaSaida\FluxoEntradaSaida.cs" />
+    <Compile Include="EntradaSaida\Diretorio.cs" />
+    <Compile Include="EntradaSaida\HttpTransfer.cs" />
     <Compile Include="Fluxo\Anonimos\Anonimos.cs" />
     <Compile Include="Fluxo\Delegate\DelegateMethod.cs" />
     <Compile Include="Fluxo\Exception\Exception.cs" />

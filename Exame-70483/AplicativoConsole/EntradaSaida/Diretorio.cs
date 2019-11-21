@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace AplicativoConsole.Acesso_dados
+
+namespace AplicativoConsole.FluxoEntradaSaida
 {
-    public class FluxoEntradaSaida
+    public class Diretorio
     {
         /// <summary>
         /// Método trabalha com diretórios, lista, cria e consulta diretório

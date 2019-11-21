@@ -1,4 +1,4 @@
-﻿using AplicativoConsole.Acesso_dados;
+﻿using AplicativoConsole.FluxoEntradaSaida;
 using AplicativoConsole.Fluxo;
 using AplicativoConsole.Fluxo.Anonimos;
 using AplicativoConsole.Fluxo.DelegateMethod;
@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AplicativoConsole.FluxoEntradaSaida.HttpTransfer;
 
 namespace AplicativoConsole
 {
@@ -136,7 +137,10 @@ namespace AplicativoConsole
             // Fim de exemplo de Delegate
 
             // Fluxo de entrada e saída E/S
-            var fluxoEntradaSaida = new FluxoEntradaSaida();
+
+           // var httpTransfer = new HttpTransfer();
+
+            var fluxoEntradaSaida = new Diretorio();
 
             fluxoEntradaSaida.TrabalhandoComDiretorios();
             
